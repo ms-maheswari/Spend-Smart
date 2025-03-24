@@ -59,7 +59,7 @@ exports.loginUser = async (req, res) => {
             token: generateToken(user._id),
         });
     } catch (error) {
-        res.status(500).json({ message: "Error Login user", error: err.message});
+        res.status(500).json({ message: "Error Login user", error: error.message});
     }
 };
 

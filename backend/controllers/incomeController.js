@@ -36,4 +36,4 @@ exports.getAllIncome = async ( req, res) => {}
 exports.deleteIncome = async ( req, res) => {}
 
 // Download Excel 
-exports.deleteIncome = async ( req, res) => {}
+exports.downloadIncomeExcel = async ( req, res) => {}
