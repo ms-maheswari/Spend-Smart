@@ -1,4 +1,4 @@
-const Income = require("../models/Income");
+const Expense = require("../models/Expense");
 const xlsx = require('xlsx');
 
 // Add Income Source
